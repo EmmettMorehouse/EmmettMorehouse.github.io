@@ -1,0 +1,40 @@
+body {
+    background-image: url('../Images/mountain.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+img {
+    opacity: .5;
+}
+
+.navButtons li {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    color: black;
+    list-style-type: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: purple;
+
+}
+
+#intro {
+
+}
+
+#work {
+
+}
+
+#contact h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-decoration: underline;
+}
