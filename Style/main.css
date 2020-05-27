@@ -4,15 +4,19 @@ body {
     background-size: cover;
 }
 
-img {
-    opacity: .5;
+.navButtons {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .navButtons li {
+    display: inline;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.2em;
     color: black;
     list-style-type: none;
+    margin-left: 0px;
+    margin-right: 20px;
 }
 
 a:link {
@@ -26,15 +30,31 @@ a:visited {
 }
 
 #intro {
-
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
 }
 
 #work {
+    text-align: center;
+}
 
+#work p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+#contact {
+    text-align: center;
 }
 
 #contact h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-size: 1.1em;
     text-decoration: underline;
+}
+
+#contact li {
+    list-style-type: none;
 }
