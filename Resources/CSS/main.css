@@ -1,12 +1,17 @@
 body {
-    background-image: url('./Resources/Images/mountain.jpg');
+    background-image: url('../Images/mountain.jpg');
     background-position: center;
     background-size: cover;
 }
 
 .navButtons {
-    display: flex;
-    justify-content: flex-end;
+    display: -webkit-inline-flex;
+    justify-content: flex-start;
+}
+
+.pageLinks {
+    display: -webkit-inline-flex;
+    justify-content: right;
 }
 
 .navButtons li {
@@ -15,8 +20,17 @@ body {
     font-size: 1.2em;
     color: black;
     list-style-type: none;
-    margin-left: 0px;
-    margin-right: 20px;
+    padding: 20px 10px;
+}
+
+.pageLinks li {
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    color: black;
+    list-style-type: none;
+    padding: 20px;
+    margin-left: 850px;
 }
 
 a:link {
@@ -34,10 +48,16 @@ a:visited {
     font-size: 1.3em;
     font-weight: bold;
     text-align: center;
+    margin: 60px;
+    height: 400px;
 }
 
 #work {
     text-align: center;
+    margin: 60px;
+    height: 300px;
+    border: 2px solid purple;
+    border-radius: 10px;
 }
 
 #work p {
@@ -47,6 +67,10 @@ a:visited {
 
 #contact {
     text-align: center;
+    margin: 60px;
+    padding: 10px;
+    border: 2px solid purple;
+    border-radius: 10px;
 }
 
 #contact h1 {
