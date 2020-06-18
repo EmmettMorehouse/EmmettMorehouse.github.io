@@ -5,13 +5,8 @@ body {
 }
 
 .navButtons {
-    display: -webkit-inline-flex;
-    justify-content: flex-start;
-}
-
-.pageLinks {
-    display: -webkit-inline-flex;
-    justify-content: right;
+    position: relative;
+    padding-top: 1em;
 }
 
 .navButtons li {
@@ -20,17 +15,7 @@ body {
     font-size: 1.2em;
     color: black;
     list-style-type: none;
-    padding: 20px 10px;
-}
-
-.pageLinks li {
-    display: inline;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.2em;
-    color: black;
-    list-style-type: none;
-    padding: 20px;
-    margin-left: 850px;
+    padding-left: 1em;
 }
 
 a:link {
@@ -40,7 +25,6 @@ a:link {
 a:visited {
     text-decoration: none;
     color: purple;
-
 }
 
 #intro {
@@ -48,8 +32,10 @@ a:visited {
     font-size: 1.3em;
     font-weight: bold;
     text-align: center;
+    position: relative;
     margin: 60px;
     height: 400px;
+    top: 2em;
 }
 
 #work {
@@ -81,4 +67,11 @@ a:visited {
 
 #contact li {
     list-style-type: none;
+}
+
+#toTop {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;   
+    text-align: center;
+    padding-bottom: 1em;
 }
