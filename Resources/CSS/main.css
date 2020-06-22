@@ -2,6 +2,7 @@ body {
     background-image: url('../Images/mountain.jpg');
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .navButtons {
@@ -11,11 +12,15 @@ body {
 
 .navButtons li {
     display: inline;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.2em;
     color: black;
     list-style-type: none;
     padding-left: 1em;
+}
+
+.navButtons li:hover {
+    text-decoration: underline;
 }
 
 a:link {
@@ -28,7 +33,7 @@ a:visited {
 }
 
 #intro {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.3em;
     font-weight: bold;
     text-align: center;
@@ -40,27 +45,45 @@ a:visited {
 
 #work {
     text-align: center;
-    margin: 60px;
-    height: 300px;
+    margin: 30px;
+    height: 310px;
     border: 2px solid purple;
     border-radius: 10px;
+    text-decoration: underline;
+    text-align: center;
 }
 
+#work li {
+    list-style-type: none;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    height: 210px;
+    width: 280px;
+  }
+  
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
 #work p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.2em;
 }
 
 #contact {
     text-align: center;
-    margin: 60px;
+    margin: 30px;
     padding: 10px;
     border: 2px solid purple;
     border-radius: 10px;
 }
 
 #contact h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.1em;
     text-decoration: underline;
 }
@@ -69,9 +92,17 @@ a:visited {
     list-style-type: none;
 }
 
+#contact li:hover {
+    text-decoration: underline;
+}
+
 #toTop {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Raleway', sans-serif;
     font-size: 1em;   
     text-align: center;
     padding-bottom: 1em;
+}
+
+#toTop:hover {
+    text-decoration: underline;
 }
